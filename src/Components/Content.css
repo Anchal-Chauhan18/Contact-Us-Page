@@ -1,0 +1,67 @@
+h1{
+    width: 315px;
+    font-weight: 800;
+    size: 48px;
+    margin-top: 15px;
+    margin-left: 188px;
+}
+p{
+    width: 975px;
+    size: 16px;
+    color: #5A5959;
+    font-weight: 600;
+    margin-top: 12px;
+    margin-left: 188px;
+}
+.sec{
+    display:flex;
+    max-width: 1161px;
+    height: 600px;
+    margin: 49px 182px;
+    gap: 81px;
+}
+.form{
+    max-width:472px ;
+    max-height: 457px;
+    gap: 23px;
+}
+.btns{
+    display: flex;
+    width: 472px;
+    height: 44px;
+    gap:32px;
+ }
+ .form_control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+ } 
+ .form_control input{
+    border: 1px solid #000;
+    height: 40px;
+    color:#5A5959 ;
+    padding: 0 8px ;
+ }
+ .form_control label{
+position: absolute;
+font-size: 14px;
+padding: 0 10px;
+background-color: #fff;
+left: 10px;
+top: -12px;
+ }
+.data{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.submbtn{
+    margin-top: 17px;
+    display: flex;
+    float: right;
+}
+.secImg{
+    width: 608px;
+    height: 615px;
+}
